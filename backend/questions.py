@@ -1,0 +1,47 @@
+quiz_data = {
+    "AIML": {
+        "What does ML stand for?": ("a", ["a) Machine Learning","b) Modern Logic","c) Model Learning","d) Multi Logic"]),
+        "Which type uses labeled data?": ("b", ["a) Unsupervised","b) Supervised","c) Reinforcement","d) Random"]),
+        "K-Means is used for?": ("a", ["a) Clustering","b) Regression","c) Classification","d) Sorting"]),
+        "Decision Tree is used for?": ("c", ["a) Sorting","b) Cleaning","c) Classification","d) Networking"]),
+        "Overfitting means?": ("a", ["a) Model fits training too well","b) Underperforming","c) No data","d) High accuracy"]),
+        "Underfitting means?": ("b", ["a) Too complex","b) Too simple model","c) Perfect fit","d) Clustering"]),
+        "Train-test split is used for?": ("a", ["a) Model evaluation","b) Storage","c) Cleaning","d) Display"]),
+        "Confusion Matrix is used for?": ("a", ["a) Evaluation","b) Sorting","c) Storage","d) Graphing"]),
+        "Linear Regression predicts?": ("c", ["a) Class","b) Cluster","c) Continuous value","d) Image"]),
+        "AI stands for?": ("a", ["a) Artificial Intelligence","b) Automated Input","c) Applied Info","d) Active Index"]),
+        "PCA is used for?": ("b", ["a) Sorting","b) Dimensionality reduction","c) Storage","d) Printing"]),
+        "Regularization prevents?": ("a", ["a) Overfitting","b) Underfitting","c) Sorting","d) Scaling"]),
+        "Reinforcement learning uses?": ("d", ["a) Labels","b) Clusters","c) Tables","d) Rewards"]),
+        "Clustering is?": ("c", ["a) Supervised","b) Regression","c) Unsupervised","d) Reinforcement"]),
+        "Naive Bayes is based on?": ("b", ["a) Geometry","b) Probability","c) Sorting","d) Indexing"]),
+        "Accuracy measures?": ("a", ["a) Correct predictions","b) Speed","c) Memory","d) Storage"]),
+        "Recall measures?": ("c", ["a) Memory","b) Speed","c) True positive rate","d) Sorting"]),
+        "Precision measures?": ("b", ["a) Size","b) Positive prediction correctness","c) Sorting","d) Storage"]),
+        "Dataset means?": ("d", ["a) Model","b) Graph","c) Code","d) Collection of data"]),
+        "Feature means?": ("c", ["a) Output","b) Label","c) Input variable","d) Accuracy"])
+    },
+
+    "Python": {
+        "Which keyword defines function?": ("c", ["a) func","b) define","c) def","d) function"]),
+        "Which symbol is for comment?": ("b", ["a) //","b) #","c) --","d) /* */"]),
+        "Lists use?": ("b", ["a) {}","b) []","c) ()","d) <>"]),
+        "Dictionaries use?": ("c", ["a) []","b) ()","c) {}","d) <>"]),
+        "Python is?": ("b", ["a) Compiled","b) Interpreted","c) Assembly","d) Binary"]),
+        "Boolean values are?": ("a", ["a) True/False","b) Yes/No","c) 0/1 only","d) On/Off"]),
+        "Loop that runs while true?": ("b", ["a) for","b) while","c) loop","d) repeat"]),
+        "Correct file extension?": ("b", ["a) .pt","b) .py","c) .p","d) .python"]),
+        "Tuple is?": ("d", ["a) Mutable","b) List","c) Dict","d) Immutable"]),
+        "Import keyword?": ("c", ["a) include","b) using","c) import","d) require"]),
+        "len() function gives?": ("a", ["a) Length","b) Value","c) Type","d) Memory"]),
+        "range() is used in?": ("c", ["a) if","b) dict","c) loops","d) file"]),
+        "append() works with?": ("b", ["a) dict","b) list","c) tuple","d) string"]),
+        "Key-value pair belongs to?": ("c", ["a) list","b) tuple","c) dictionary","d) set"]),
+        "Indentation in Python is?": ("a", ["a) Mandatory","b) Optional","c) Ignored","d) Deprecated"]),
+        "Type casting means?": ("d", ["a) Looping","b) Printing","c) Sorting","d) Converting types"]),
+        "input() returns?": ("b", ["a) int","b) string","c) float","d) bool"]),
+        "Python supports OOP?": ("a", ["a) Yes","b) No","c) Partial","d) Deprecated"]),
+        "Exception handling uses?": ("c", ["a) if","b) for","c) try-except","d) loop"]),
+        "Set is?": ("d", ["a) Ordered","b) Indexed","c) Mutable list","d) Unordered collection"])
+    }
+}
