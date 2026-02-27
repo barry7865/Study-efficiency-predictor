@@ -31,7 +31,7 @@ export function QuizDashboard() {
       console.log("Fetching questions for subject:", selectedSubject)
       
       const response = await fetch(
-        `http://127.0.0.1:8000/questions/${selectedSubject}`,
+        `https://study-efficiency-predictor.onrender.com/questions/${selectedSubject}`,
         {
           method: "GET",
           headers: {
@@ -57,7 +57,7 @@ export function QuizDashboard() {
       console.log("Questions count:", data.questions.length)
 
       setQuestions(
-        data.questions.map((q, index) => ({
+        data.questions.map((q: any, index: number) => ({
           id: index,
           ...q,
         }))
@@ -102,7 +102,7 @@ export function QuizDashboard() {
     }
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/predict", {
+      const response = await fetch("https://study-efficiency-predictor.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
