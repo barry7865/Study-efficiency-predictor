@@ -215,7 +215,8 @@ const pythonQuestions: Question[] = [
 ]
 
 export function getQuizQuestions(subject: string): Question[] {
-  const pool = subject === "aiml" ? aimlQuestions : pythonQuestions
+  const normalizedSubject = subject.trim().toLowerCase()
+  const pool = normalizedSubject === "aiml" ? aimlQuestions : pythonQuestions
   const shuffled = [...pool].sort(() => Math.random() - 0.5)
   return shuffled.slice(0, 10)
 }

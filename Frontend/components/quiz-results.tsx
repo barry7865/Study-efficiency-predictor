@@ -19,7 +19,8 @@ interface QuizResultsProps {
 }
 
 export function QuizResults({ result, subject, onRestart }: QuizResultsProps) {
-  const subjectLabel = subject === "aiml" ? "AI & Machine Learning" : "Python Programming"
+  const normalizedSubject = subject.trim().toLowerCase()
+  const subjectLabel = normalizedSubject === "aiml" ? "AI & Machine Learning" : "Python Programming"
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
